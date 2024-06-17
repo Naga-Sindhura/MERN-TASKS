@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task-7</title>
+    <style>
+        body {
+            background-color: #a22b55;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        table {
+            background-color: #75203f;
+            width: 400px;
+            padding: 20px;
+            border: 2px solid #75203f;
+            border-radius: 0;
+            text-align:center;
+        }
+
+        td {
+            padding: 10px;
+            text-align:left;
+        }
+
+        label {
+            color: white;
+        }
+
+        button {
+            height: 30px;
+            width: 100%;
+            font-weight: bold;
+            border: none;
+            background-color: white;
+            color: #75203f;
+            cursor: pointer;
+            border-radius: 0;
+        }
+
+        button:hover {
+            background-color: #a22b55;
+        }
+
+        textarea {
+            width: 80%;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr><td><label>Name:</label></td><td><input type="text" placeholder="your name"></td></tr>
+        <tr><td><label>Email:</label></td><td><input type="text" placeholder="your email"></td></tr>
+        <tr><td><label>Password:</label></td><td><input type="text"></td></tr>
+        <tr><td><label>Phone Number:</label></td><td><input type="text" ></td></tr>
+        <tr><td><label>Gender:</label></td><td><label>Male:<input type="radio" />
+            Female:<input type="radio" />
+            Others:<input type="radio" /></label></td></tr>
+        <tr><td><label>Language:</label></td>
+            <td>
+                <select>
+                    <option>Select language
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Bengali</option>
+                    <option>French</option>
+                    <option>Spanish</option>
+                    <option>Chinese</option>
+                    <option>Arabic</option>
+                    <option>Portuguese</option>
+                </select>
+            </td>
+        </tr>
+        <tr><td><label>Zip Code:</label></td><td><input type="text"></td></tr>
+        <tr><td><label>About:</label></td><td><textarea placeholder="Write about yourself..."></textarea></td></tr>
+        <tr><td colspan="2" style="text-align:center;"><button type="button" style="border-radius: 5px;">Register</button></td></tr>
+    </table>
+    
+</body>
+</html>
